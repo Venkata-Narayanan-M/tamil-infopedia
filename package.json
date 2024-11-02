@@ -1,0 +1,22 @@
+{
+  "name": "tamil-infopedia-v1.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "npm@10.2.4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:web":"turbo run dev --filter=web",
+    "dev:backend":"turbo run start:dev --filter=backend",
+    "build":"turbo run build"
+  },
+  "workspaces":[
+    "apps/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "turbo": "^2.2.3"
+  }
+}

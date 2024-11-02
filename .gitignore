@@ -1,0 +1,14 @@
+#app wide node modules
+node_modules/
+apps/**/node_modules/
+
+#build output
+dist/
+out/
+.next/
+build/
+
+#environment changes
+.env
+
+
